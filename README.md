@@ -1,4 +1,4 @@
-## Course Project: </br>Golden Age of Video Games
+## Course Project: Golden Age of Video Games
 <p><img src="https://images.unsplash.com/photo-1632256347173-298f7407d1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="A video game player choosing a game to play on Nintendo Switch." width="200"></p>
 
 <p>Photo by <a href="https://unsplash.com/@retromoon">Dan Schleusser</a> on <a href="https://unsplash.com">Unsplash</a>.</p>
@@ -7,6 +7,26 @@ the users to compare a dataset on game sales against critics and user reviews to
 have improved over time.
 <p>The database used for this was reduced. The complete dataset with over 13,000 games can be found on <a href="https://www.kaggle.com/holmjason2/videogamedata">Kaggle</a>.
 </p>
+
+### Prerequisites
+- PostgreSQL
+- [ipython-sql](https://github.com/catherinedevlin/ipython-sql)
+- SQLAlchemy
+- [Psycopg 2](https://pypi.org/project/Psycopg2/) (if using Postgres)
+
+### Installation
+
+
+```python 
+pip install ipython-sql
+pip install sqlalchemy
+pip install psycopg2 #if using Postgres
+```
+
+Useful articles:
+https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d
+https://www.datacamp.com/tutorial/tutorial-jupyter-notebook
+https://github.com/psycopg/psycopg2/issues/1200
 
 ### Schema/tables
 
