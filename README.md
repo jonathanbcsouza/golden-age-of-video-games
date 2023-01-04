@@ -16,7 +16,6 @@ have improved over time.
 
 ### Installation
 
-
 ```python 
 pip install ipython-sql
 pip install sqlalchemy
@@ -24,9 +23,9 @@ pip install psycopg2 #if using Postgres
 ```
 
 Useful articles:
-https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d
-https://www.datacamp.com/tutorial/tutorial-jupyter-notebook
-https://github.com/psycopg/psycopg2/issues/1200
+- [PostgreSQL Integration with Jupyter Notebook](https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d)
+- [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook)
+- [Psycopg 2 - issues discussion on Github](https://github.com/psycopg/psycopg2/issues/1200)
 
 ### Schema/tables
 
