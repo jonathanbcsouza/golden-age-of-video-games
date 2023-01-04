@@ -1,13 +1,14 @@
-## Course Project: Golden Age of Video Games
+## Course Project: </br>Golden Age of Video Games
 <p><img src="https://images.unsplash.com/photo-1632256347173-298f7407d1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="A video game player choosing a game to play on Nintendo Switch." width="200"></p>
 
-<p>Photo by <a href="https://unsplash.com/@retromoon">Dan Schleusser</a> on <a href="https://unsplash.com">Unsplash</a>.
-</p>
-This was a project delivered to <a href="https://www.datacamp.com"> Datacamp</a>. This challenge was to compare a dataset on game sales with critics and user reviews to determine whether or not video games have improved over time.
-<p>The database used for this contained two tables, and it was limited to 400 rows. The complete dataset with over 13,000 games can be found on <a href="https://www.kaggle.com/holmjason2/videogamedata">Kaggle</a>.
+<p>Photo by <a href="https://unsplash.com/@retromoon">Dan Schleusser</a> on <a href="https://unsplash.com">Unsplash</a>.</p>
+This is a solution for a SQL project challenge created by <a href="https://www.datacamp.com"> Datacamp</a> where it expects
+the users to compare a dataset on game sales against critics and user reviews to determine whether or not video games
+have improved over time.
+<p>The database used for this was reduced. The complete dataset with over 13,000 games can be found on <a href="https://www.kaggle.com/holmjason2/videogamedata">Kaggle</a>.
 </p>
 
-### Databases used for this project
+### Schema/tables
 
 <h3 id="game_sales"><code>game_sales</code></h3>
 <table>
@@ -79,5 +80,82 @@ This was a project delivered to <a href="https://www.datacamp.com"> Datacamp</a>
     </tbody>
 </table>
 
+<h3 id="top_critic_years"><code>top_critic_years</code></h3>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:left">column</th>
+            <th>type</th>
+            <th>meaning</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:left"><code>year</code></td>
+            <td>int</td>
+            <td>Year of video game release</td>
+        </tr>
+        <tr>
+            <td style="text-align:left"><code>avg_critic_score</code></td>
+            <td>float</td>
+            <td>Average of all critic scores for games released in that year</td>
+        </tr>
+    </tbody>
+</table>
+<h3 id="top_critic_years_more_than_four_games"><code>top_critic_years_more_than_four_games</code></h3>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:left">column</th>
+            <th>type</th>
+            <th>meaning</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:left"><code>year</code></td>
+            <td>int</td>
+            <td>Year of video game release</td>
+        </tr>
+        <tr>
+            <td style="text-align:left"><code>num_games</code></td>
+            <td>int</td>
+            <td>Count of the number of video games released in that year</td>
+        </tr>
+        <tr>
+            <td style="text-align:left"><code>avg_critic_score</code></td>
+            <td>float</td>
+            <td>Average of all critic scores for games released in that year</td>
+        </tr>
+    </tbody>
+</table>
+<h3 id="top_critic_years_more_than_four_games"><code>top_critic_years_more_than_four_games</code></h3>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:left;">column</th>
+            <th>type</th>
+            <th>meaning</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:left;"><code>year</code></td>
+            <td>int</td>
+            <td>Year of video game release</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;"><code>num_games</code></td>
+            <td>int</td>
+            <td>Count of the number of video games released in that year</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;"><code>avg_critic_score</code></td>
+            <td>float</td>
+            <td>Average of all critic scores for games released in that year</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Full analysis
-Please refer to [golden-age-of-video-games.ipynb](golden-age-of-video-games.ipynb) file.
+Please refer to [golden-age-of-video-games.ipynb](golden-age-of-video-games.ipynb).
