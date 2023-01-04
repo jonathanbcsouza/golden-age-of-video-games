@@ -1,18 +1,14 @@
-## Datacamp Course Project
-## Golden Age of Video Games
+## Course Project: Golden Age of Video Games
+<p><img src="https://images.unsplash.com/photo-1632256347173-298f7407d1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="A video game player choosing a game to play on Nintendo Switch." width="200"></p>
 
-Description:
-
-## 1. The ten best-selling video games
-<p><img src="https://assets.datacamp.com/production/project_1413/img/video_game.jpg"
-        alt="A video game player choosing a game to play on Nintendo Switch." width="400"></p>
 <p>Photo by <a href="https://unsplash.com/@retromoon">Dan Schleusser</a> on <a href="https://unsplash.com">Unsplash</a>.
 </p>
-<p>In this project, I was challenged to compare a dataset on game sales with critic and user reviews collected over time
-    to determine whether or not video games have improved as the gaming market has grown.</p>
-<p>The database contained two tables, and were limited to 400 rows for this project. The complete dataset with over
-    13,000 games can be found on <a href="https://www.kaggle.com/holmjason2/videogamedata">Kaggle</a>.
+This was a project delivered to <a href="https://www.datacamp.com"> Datacamp</a>. This challenge was to compare a dataset on game sales with critics and user reviews to determine whether or not video games have improved over time.
+<p>The database used for this contained two tables, and it was limited to 400 rows. The complete dataset with over 13,000 games can be found on <a href="https://www.kaggle.com/holmjason2/videogamedata">Kaggle</a>.
 </p>
+
+### Databases used for this project
+
 <h3 id="game_sales"><code>game_sales</code></h3>
 <table>
     <thead>
@@ -82,6 +78,6 @@ Description:
         </tr>
     </tbody>
 </table>
-<p>Let's begin by looking at some of the top selling video games of all time!</p>
 
-The analysis can be found at [this](golden-age-of-video-games.ipynb) link.
+### Full analysis
+Please refer to [golden-age-of-video-games.ipynb](golden-age-of-video-games.ipynb) file.
